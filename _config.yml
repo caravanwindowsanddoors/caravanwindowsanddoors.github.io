@@ -1,8 +1,8 @@
 # Site settings
 title: DentistSmile | Dental Jekyll Theme
 description: "A responsive Jekyll theme for dental clinics."
-baseurl: 
-url: caravanwindowsanddoors.github.io
+baseurl: ""
+url: "caravanwindowsanddoors.github.io"
 logo_url: svg/min/logo.svg
 
 # Hero
