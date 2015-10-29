@@ -31,7 +31,7 @@
 	
 		<!-- Header -->
 			<header id="header">
-				<h1 id="logo"><a href="index.html"><img src="images/Logo.jpeg" alt="Logo" /></span></a></h1>
+				<h1 id="logo"><a href="index.html"><img src="images/Logo.jpg" alt="Logo" /></span></a></h1>
                 <nav id="nav">
                     <ul>
                         <li><a href="/">Home</a></li>
@@ -62,23 +62,19 @@
 					
 						<!-- Content -->
 							<div class="content">
-								<form>
+								<form action="http://formspree.io/caravanwindowsanddoors@colournet.org" method="POST">
 									<div class="row half collapse-at-2">
 										<div class="6u">
 											<input type="text" name="name" placeholder="Name" />
 										</div>
 										<div class="6u">
-											<input type="text" name="email" placeholder="Email" />
+											<input type="email" name="_replyto" placeholder="Email" />
 										</div>
 									</div>
 									<div class="row half">
 										<div class="12u">
-											<input type="text" name="subject" placeholder="Subject" />
-										</div>
-									</div>
-									<div class="row half">
-										<div class="12u">
-											<textarea name="message" placeholder="Message" rows="7"></textarea>
+											<textarea type="text" name="message" placeholder="Message" rows="7"></textarea>
+                                            <input type="hidden" name="_next" value="http://caravanwindowsanddoors.github.io/thanks.html" />
 										</div>
 									</div>
 									<div class="row">
