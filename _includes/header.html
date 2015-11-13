@@ -1,13 +1,13 @@
-<header id="header">
-				<h1 id="logo"><a href="/"><img src="../images/Logo.jpg" alt="Logo" /></a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="guarantee.html">Guarantee</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li><a href="products.html">Products</a></li>
-						<li><a href="testimonials.html">Testimonials</a></li>
-						<li><a href="contact.html" class="button special">Contact Us</a></li>
-					</ul>
-				</nav>
-			</header>
+{% if page.header%}
+  <header role="banner">
+      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ page.header_xl }}" srcset="{{ site.baseurl }}/{{ page.header_sm }} 200w, {{ site.baseurl }}/{{ page.header_med }} 641w, {{ site.baseurl }}/{{ page.header_large }} 1025w, {{ site.baseurl }}/{{ page.header_xl }} 1441w" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
+  </header>
+  
+  {% elsif site.header %}
+    <header role="banner">
+      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" srcset="{{ site.baseurl }}/{{ site.header_sm }} 200w, {{ site.baseurl }}/{{ site.header_med }} 641w, {{ site.baseurl }}/{{ site.header_large }} 1025w, {{ site.baseurl }}/{{ site.header_xl }} 1441w" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
+    </header>
+  
+  {% else %}
+
+{% endif %}
