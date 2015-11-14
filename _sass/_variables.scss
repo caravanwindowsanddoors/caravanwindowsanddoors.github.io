@@ -1,7 +1,7 @@
 // Base Colors
-$primary-color: #272727;
-$secondary-color: #aaa;
-$complimentary-color: #fff;
+$primary-color: #2484C6;
+$secondary-color: #FFF;
+$complimentary-color: #AAA;
 $body-bg: #fdfdfd;
 $body-font-color: #222;
 
@@ -13,7 +13,7 @@ $link-visited-color: darken($complimentary-color, 25%);
 // Text
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size: 1.0em;
-$small-font-size: $base-font-size * 0.875;
+$small-font-size: $base-font-size * 0.75;
 $base-line-height: 1.5;
 
 
@@ -22,7 +22,7 @@ $navbar-height: 44px;
 $navbar-color: $primary-color;
 $navbar-text-color: $secondary-color;
 $navbar-hover-color: $complimentary-color;
-$navbar-active-color: darken($complimentary-color, 75%);
+$navbar-active-color: $primary-color;
 $navbar-font-size: 13px;
 $navbar-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 

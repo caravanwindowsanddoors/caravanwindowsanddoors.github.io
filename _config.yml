@@ -1,14 +1,14 @@
 # Site settings
-name: Slim Pickins Jekyll Theme
-email: 
-author: Chrisanthropic
+name: Caravan Windows and Doors
+email: caravanwindowsanddoors@colournet.org
+author: CaravanWindowsAndDoors.com
 
-keywords: jekyll, jekyll theme, jekyll framework, stuffthings
+keywords: caravan windows doors double glazing uPVC
 description: > # this means to ignore newlines until "baseurl:"
-  Witty description here.
+  Caravan Windows and doors
 
 baseurl: 
-url: https://chrisanthropic.github.io
+url: https://www.caravanwindowsanddoors.com
 
 header: yes
 header_sm: images/banner-small.jpg
