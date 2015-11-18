@@ -159,6 +159,20 @@
 	display: none;
 }
 
+// Styling for small displays
+@media screen and (max-width: 1000px; min-width: 769px) {
+    #nav .navbar {
+        height: $navbar-height * 2;
+        background-color: $navbar-color;
+    }
+    #nav .primary-nav{
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        background: $navbar-color;
+    }
+}
+
 
 // Styling for mobile devices
 @media screen and (max-width: 768px) {
