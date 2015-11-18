@@ -16,6 +16,11 @@ header_med: images/banner-med.jpg
 header_large: images/banner-large.jpg
 header_xl: images/banner-xl.jpg
 
+personal_name: Steve
+company_name: Vulcan Windows
+quote_phone: 07760 292 697
+quote_email: smill13@hotmail.com
+
 
 # Exclude our ruby stuff
 exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
