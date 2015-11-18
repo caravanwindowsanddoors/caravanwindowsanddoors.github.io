@@ -160,7 +160,7 @@
 }
 
 // Styling for small displays
-@media screen and (max-width: 1000px; min-width: 769px) {
+@media screen and (max-width: 1000px) and (min-width: 767px) {
     #nav .navbar {
         height: $navbar-height * 2;
         background-color: $navbar-color;
