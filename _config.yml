@@ -16,10 +16,10 @@ header_med: images/banner-med.jpg
 header_large: images/banner-large.jpg
 header_xl: images/banner-xl.jpg
 
-personal_name: Steve
-company_name: Vulcan Windows
-quote_phone: 07760 292 697
-quote_email: smill13@hotmail.com
+personal_name: Paul
+company_name: Caravan Windows and Doors
+quote_phone: 07922123091
+quote_email: caravanwindows@btinternet.com
 
 
 # Exclude our ruby stuff
