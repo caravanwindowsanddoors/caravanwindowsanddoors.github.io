@@ -56,8 +56,14 @@ p {
 }
 
 .header-content-inner em {
-   color: red;
+   font-color: white;
    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bg-primary {
@@ -178,8 +184,7 @@ aside {
 
 header {
     position: relative;
-    width: 100%;
-    min-height: auto;
+    background-size: 100%;
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
@@ -192,7 +197,7 @@ header {
         width: 100%;
         .header-content-inner {
             h1 {
-                font-weight: 700;
+                font-weight: 600;
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
