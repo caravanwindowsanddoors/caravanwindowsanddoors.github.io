@@ -68,6 +68,8 @@ img {
 
 .bg-primary {
     background-color: $theme-primary;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .bg-dark {
@@ -332,7 +334,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    @include button-variant(black, $theme-primary, $theme-primary);
 }
 
 .btn {
@@ -351,6 +353,45 @@ header {
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
+}
+
+
+// Image Gallery
+.igallery {
+    div {
+        font-size: 0;
+    }
+    
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    a {
+        font-size: 16px;
+        display: inline-block;
+        margin-bottom: 8px;
+        width: calc(50% - 4px);
+        margin-right: 8px;
+    }
+    
+    a:nth-of-type(2n) {
+        margin-right: 0;
+    }
+    
+    @media screen and (min-width: 50em) {
+        a {
+            width: calc(25% - 6px);
+        }
+        
+        a:nth-of-type(2n) {
+            margin-right: 8px;
+        }
+        
+        a:nth-of-type(4n) {
+            margin-right: 0;
+        }
+    }
 }
 
 // Extras
