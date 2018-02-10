@@ -1,3 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+caravanwindowsanddoors/caravanwindowsanddoors.xcodeproj/project.pbxproj
+caravanwindowsanddoors/caravanwindowsanddoors.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcuserstate

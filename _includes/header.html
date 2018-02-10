@@ -1,13 +1,16 @@
-{% if page.header%}
-  <header>
-      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ page.header_xl }}" srcset="{{ site.baseurl }}/{{ page.header_sm }} 200w, {{ site.baseurl }}/{{ page.header_med }} 641w, {{ site.baseurl }}/{{ page.header_large }} 1025w, {{ site.baseurl }}/{{ page.header_xl }} 1441w" sizes="100vw" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
-  </header>
-  
-  {% elsif site.header %}
-    <header>
-      <a href="{{ site.baseurl }}"><img src="{{ site.baseurl }}/{{ site.header_xl }}" srcset="{{ site.baseurl }}/{{ site.header_sm }} 200w, {{ site.baseurl }}/{{ site.header_med }} 641w, {{ site.baseurl }}/{{ site.header_large }} 1025w, {{ site.baseurl }}/{{ site.header_xl }} 1441w" sizes="100vw" alt="{{ site.name }} banner image" title="{{ site.name }} banner image" class="center"></a>
-    </header>
-  
-  {% else %}
-
-{% endif %}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>CARAVAN WINDOWS AND DOORS</h1>
+            <h2>for static / holiday home caravans</h2>
+            <hr />
+            <p>Call or Text {{ site.personal_name }} on <em>{{ site.contact_number }} </em> for a free quotation.<br />
+            We Install <em>NATIONWIDE</em> in the UK.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <a href="#contact" class="btn btn-primary btn-xl wow tada">Quote Now!</a>
+            </div>
+        </div>
+    </div>
+</header>
