@@ -43,6 +43,7 @@ h6 {
     color: #666;
     @include sans-serif-font;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 p {
@@ -51,18 +52,22 @@ p {
     line-height: 1.5;
     margin-bottom: 20px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 label {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 input {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 textarea {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .header-content-inner h2 {
@@ -70,7 +75,7 @@ textarea {
 }
 
 .header-content-inner em {
-   font-color: white;
+//   font-color: white;
    font-weight: bold;
 }
 
