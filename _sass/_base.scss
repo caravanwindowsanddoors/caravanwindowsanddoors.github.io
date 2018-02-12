@@ -128,7 +128,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-	color: $theme-primary;
+	color: darken($theme-primary, 40%);
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -175,7 +175,6 @@ aside {
         .nav > li > a:focus {
             color: rgba(white, .7);
             &:hover {
-// meep
                 color: black;
             }
         }
@@ -201,6 +200,8 @@ aside {
     }
 }
 
+
+
 // Homepage Header
 
 header {
@@ -220,7 +221,7 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 50px 15px 50px;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -233,6 +234,12 @@ header {
                 margin: 30px auto;
             }
             p {
+                font-weight: 400;
+                color: red;
+                font-size: 16px;
+                margin-bottom: 50px;
+            }
+            a[href^=tel] {
                 font-weight: 400;
                 color: red;
                 font-size: 16px;
