@@ -42,6 +42,7 @@ h5,
 h6 {
     color: #666;
     @include sans-serif-font;
+    margin-left: 20px;
 }
 
 p {
@@ -49,6 +50,19 @@ p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+input {
+    margin-left: 20px;
+}
+
+textarea {
+    margin-left: 20px;
 }
 
 .header-content-inner h2 {
@@ -90,7 +104,7 @@ img {
 }
 
 section {
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 aside {
@@ -186,10 +200,16 @@ aside {
 
 header {
     position: relative;
-    background-size: 100%;
+    // meep
     @include background-cover;
-    background-position: center;
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-image: url('../img/header.jpg');
+    @media (max-width 320px) {
+        background-size: 320px auto;
+    }
+    
     text-align: center;
     color: white;
     .header-content {
@@ -209,7 +229,7 @@ header {
             }
             p {
                 font-weight: 400;
-                color: #2F2F2F;
+                color: red;
                 font-size: 16px;
                 margin-bottom: 50px;
             }
